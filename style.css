@@ -1,0 +1,62 @@
+.boy{
+    color: aqua;
+}
+
+img{
+    width: 150px;
+}
+
+.open{
+    background-color: black;
+    padding-left: 35px;
+    width: 60px;
+    border-radius: 50px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+}
+
+.k{
+    color: aliceblue;
+}
+
+.s{
+    color: yellow;
+}
+
+.rel{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    position: relative;
+}
+.abs{
+    background-color: green;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    display: none;
+    top: 50px;
+}
+.rel:hover .abs{
+    display: block;
+}
+.fix{
+    position: fixed;
+    background-color: aqua;
+    width: 400px;
+    top: 120px;
+    right: 0px;
+}
+.stick{
+    background-color: blueviolet;
+    position: sticky;
+    top: 0px;
+}
+
+.float{
+    float: right;
+}
+.clear{
+    display: flex;
+}
